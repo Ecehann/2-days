@@ -1,0 +1,9 @@
+package classesWithAttributes;
+//ÜRÜNE AİT OPERASYONLAR
+
+public class ProductManager {
+	public void Add(Product product) {
+	 //JDBC
+		System.out.println("Ürün Eklendi : " + product.getName());
+	}
+}
